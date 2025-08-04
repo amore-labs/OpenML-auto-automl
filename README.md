@@ -15,7 +15,7 @@ If anyone uploads a dataset to [OpenML](https://openml.org), we perform these st
 - This service will be available as long as compute credits provided for the Snellius supercomputer are available.
 
 ## Developer configuration and contributions
-Hello future OpenML developer! So you want to re-run/make a new version of this? Just look at the rest of this documentation.
+Hello future OpenML developer! So you want to re-run/make a new version of this? Just look at the rest of this documentation. See the `docs` folder.
 
 While the server aspects of this project may be more difficult to contribute to (unless you are an OpenML core developer), most of this project depends on
 [the AutoML Benchmark](https://github.com/openml/automlbenchmark), which is very well documented and likely you want to focus on contributions for this library.
