@@ -2,7 +2,8 @@
 Welcome to AutoML4All, an initiative to make it easier for anyone to build machine learning models automatically, even without programming experience. We hope that this helps to democratize the use of machine learning for scientists and students across scientific domains. At the moment, this is focused on tabular data  - although the data in the tables can be multimodal (mixtures of numeric values, text, categories, and images).
 
 ## How it works
-If anyone uploads a dataset to [OpenML](https://openml.org), we perform these steps every 5 hours:
+
+If anyone uploads a dataset to [OpenML](https://openml.org), we perform these steps every 5 hours:  
     - Check if there are new datasets uploaded to OpenML.
     - Identify if there is a [Task](https://openml.github.io/openml-python/main/usage.html#key-concepts), if not, then try to create one based on the target variable and data type of the target column.
     - Once a task is created, summon [amlb](https://github.com/openml/automlbenchmark) and based on the chosen AutoML frameworks, send requests to compute servers.
